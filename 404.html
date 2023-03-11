@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>BBNext</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/BBNext/assets/style-3c0f03c9.css" as="style"><link rel="stylesheet" href="/BBNext/assets/style-3c0f03c9.css">
+    <link rel="modulepreload" href="/BBNext/assets/app-1b9d9ed1.js"><link rel="modulepreload" href="/BBNext/assets/framework-5f17aa65.js"><link rel="modulepreload" href="/BBNext/assets/404.html-d1da943c.js"><link rel="modulepreload" href="/BBNext/assets/404.html-49bb10f7.js"><link rel="prefetch" href="/BBNext/assets/index.html-e618bdd9.js" as="script"><link rel="prefetch" href="/BBNext/assets/index.html-d34f9c74.js" as="script"><link rel="prefetch" href="/BBNext/assets/setupDevtools-X4YFRK4B-652380a8.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/BBNext/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/BBNext/assets/app-1b9d9ed1.js" defer></script>
+  </body>
+</html>
